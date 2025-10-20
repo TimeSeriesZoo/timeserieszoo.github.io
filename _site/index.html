@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Signal Vizualizers | Animated visualizers for signal processing. Simulations for the animations are created with NeuroDSP. Animations are available for re-use under the CC-BY 4.0. Developed by Tom Donoghue.</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Signal Vizualizers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Animated visualizers for signal processing. Simulations for the animations are created with NeuroDSP. Animations are available for re-use under the CC-BY 4.0. Developed by Tom Donoghue." />
+<meta property="og:description" content="Animated visualizers for signal processing. Simulations for the animations are created with NeuroDSP. Animations are available for re-use under the CC-BY 4.0. Developed by Tom Donoghue." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Signal Vizualizers" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Signal Vizualizers" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Animated visualizers for signal processing. Simulations for the animations are created with NeuroDSP. Animations are available for re-use under the CC-BY 4.0. Developed by Tom Donoghue.","headline":"Signal Vizualizers","name":"Signal Vizualizers","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Signal Vizualizers</h1>
+        <p class="header">Animated visualizers for signal processing. <br><br> Simulations for the animations are created with <a href="https://neurodsp-tools.github.io/">NeuroDSP</a>. <br><br> Animations are available for re-use under the <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>. <br><br> Developed by <br> <a href="https://tomdonoghue.github.io/">Tom Donoghue</a>.</p>
+
+        <ul>
+          
+          <li><a class="buttons github" href="">View On GitHub</a></li>
+        </ul>
+
+        
+
+        
+      </header>
+
+      <section>
+        <h1 id="overview">Overview</h1>
+
+<p>This website hosts a series of animated visualizers for exploring signal processing,
+including demonstrating different kinds of time series and common processes in digital signal processing.</p>
+
+<p>The code to make the animations, and copies of the visualizations are available in the
+<a href="https://github.com/TomDonoghue/SigViz">source repository</a>.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<p>This page contains the following sections:</p>
+
+<ul>
+  <li><a href="#time-domain-signals">Time Domain Signals</a></li>
+  <li><a href="#fourier-transforms">Fourier Transforms</a></li>
+  <li><a href="#convolution">Convolution</a></li>
+</ul>
+
+<h3 id="time-domain-signals">Time Domain Signals</h3>
+
+<p>The following plots show different kinds of simulated time series.</p>
+
+<ul>
+  <li>the left plot shows the ongoing time series</li>
+  <li>the right plot shows the corresponding power spectrum</li>
+</ul>
+
+<h4 id="oscillatory-signals">Oscillatory Signals</h4>
+
+<p>First, we have an oscillatory signal, showing rhythmic activity:</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/ts-osc.gif" alt="ts-osc" /></p>
+
+<h4 id="aperiodic-signals">Aperiodic Signals</h4>
+
+<p>Next, we will explore some aperiodic signals.</p>
+
+<p>First, white noise, defined as having equal power across all frequencies (a flat power spectrum):</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/ts-white-noise.gif" alt="ts-white" /></p>
+
+<p><br /></p>
+
+<p>Next, we have pink noise, which has a pattern of decreasing power
+across increasing frequencies:</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/ts-pink-noise.gif" alt="ts-pink" /></p>
+
+<p><br /></p>
+
+<p>Finally, we have brown noise, with has a steeper drop-off of power across increasing frequencies:</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/ts-brown-noise.gif" alt="ts-brown" /></p>
+
+<p><br /></p>
+
+<h4 id="combined-signals">Combined Signals</h4>
+
+<p>Next up, we have ‘combined signals’, which are a combination of periodic and aperiodic components:</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/ts-comb.gif" alt="ts-comb" /></p>
+
+<p>Finally, we have a bursty signal:</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/ts-comb-burst.gif" alt="ts-comb-burst" /></p>
+
+<h3 id="fourier-transforms">Fourier Transforms</h3>
+
+<p>In the following visualization, a time series (bottom left, black) is reconstructed (red), by a sum of many sinusoids (top left). On the right, the phase (top) and amplitude (bottom) of each sine wave is plotted.</p>
+
+<h4 id="aperiodic-signal">Aperiodic Signal</h4>
+
+<p>In the following, the time series is an aperiodic, pink noise signal, decomponsed by an FFT:</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/fft-aperiodic.gif" alt="fft-ap" /></p>
+
+<p>Note that in the above, the signal is completely non-rhythmic.</p>
+
+<p>Despite the signal not being rhythmic, it can still be
+decomposed by a sum on sinusoids.</p>
+
+<h4 id="periodic-signal">Periodic Signal</h4>
+
+<p>In the next signal, there is both an aperiodic component (pink noise), as well as
+a periodic component (a 10 Hz rhythm).</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/fft-periodic.gif" alt="fft-pe" /></p>
+
+<p>In the above signal, note how the prominent rhythm is fit by a sine wave which
+stands out from the other frequencies, capturing the higher power in this frequency.</p>
+
+<h3 id="convolution">Convolution</h3>
+
+<p>Here, a signal (grey) is convolved with a gaussian kernel (red), meaning we “slide” the kernel across the signal, computing each output value (green) by multiplying the kernel with the underlying signal (blue).</p>
+
+<h4 id="long-kernel">Long Kernel</h4>
+
+<p>In this first example, we will examine convolution using a long kernel.</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/convolution-long.gif" alt="conv-long" /></p>
+
+<h4 id="short-kernel">Short Kernel</h4>
+
+<p>Next, we can examine how things are different when we use a shorter kernel.</p>
+
+<p><img src="https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/convolution-short.gif" alt="conv-short" /></p>
+
+<h4 id="technical-notes">Technical Notes</h4>
+
+<p>Some technical notes on the convolution:</p>
+<ul>
+  <li>The “multiplication” applied between the kernel and the signal is the dot product</li>
+  <li>Only the range where the kernel fully overlaps the signal is shown</li>
+  <li>By definition, convolution applies the reverse of the kernel
+    <ul>
+      <li>In these examples, the kernel is symmetric, so it doesn’t change anything</li>
+    </ul>
+  </li>
+</ul>
+
+      </section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>
