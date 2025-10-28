@@ -2,11 +2,11 @@
 layout: default
 ---
 
-### Filters
+# Filters
 
 This section explores applying (FIR) filters to time series.
 
-#### Filters as Convolution
+## Filters as Convolution
 
 Applying a filter to a time series can be visualized as the convolution of a filter kernel with the data.
 
@@ -36,7 +36,7 @@ For example, if we apply a bandpass filter to aperiodic (pink noise) data (non-r
 
 ![filtconv-aperiodic](https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/04-filters/filtconv-aperiodic.gif)
 
-#### Filter Outputs
+## Filter Outputs
 
 Another way to look at filter outputs is to compare the outputs across different filter kernels.
 
@@ -62,7 +62,7 @@ And also with bandwidths:
 
 ![filtout-step-bandwidth](https://raw.githubusercontent.com/TomDonoghue/SigViz/main/gifs/04-filters/filtout-step-bandwidth.gif)
 
-#### Filter Properties
+## Filter Properties
 
 Finally, we can examine filter properties, explicitly examining the frequency response and filter kernel across different filter definitions.
 
