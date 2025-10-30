@@ -4,11 +4,15 @@ description:  >- # ignore new lines
   <br><br>
   Pages
   <br>
-  <a href="https://timeserieszoo.github.io/">Home</a>.
-  <a href="https://timeserieszoo.github.io/signals">Signals</a>.
-  <a href="https://timeserieszoo.github.io/fourier">Fourier</a>.
-  <a href="https://timeserieszoo.github.io/convolution">Convolution</a>.
-  <a href="https://timeserieszoo.github.io/filters">Filters</a>.
+  <a href="https://timeserieszoo.github.io/">Home</a>
+  <br>
+  <a href="https://timeserieszoo.github.io/signals">Signals</a>
+  <br>
+  <a href="https://timeserieszoo.github.io/fourier">Fourier</a>
+  <br>
+  <a href="https://timeserieszoo.github.io/convolution">Convolution</a>
+  <br>
+  <a href="https://timeserieszoo.github.io/filters">Filters</a>
   <br><br>
   Developed by <br>
   <a href="https://tomdonoghue.github.io/">Tom Donoghue</a>.
