@@ -19,7 +19,7 @@ First, let's consider how to our transforms of interest (Fourier transforms and 
 
 In the following, we have a time series of data (top left) of what could be a channel of EEG data, which is also reflected in the power spectrum (bottom left) and with a bank of filters (right) that are tuned to our set of oscillatory ranges.
 
-![osc-filt](https://raw.githubusercontent.com/OscillationMethods/Visualizers/blob/main/gifs/fig1.gif)
+![osc-filt](https://raw.githubusercontent.com/OscillationMethods/Visualizers/main/gifs/fig1.gif)
 
 As we have already seen in previous examples, both the power spectrum and filter outputs suggest non-zero power at frequencies of interest! However, this activity _is not necessarily oscillatory_. Indeed, in this example, the simulated time series the data is pure pink noise.
 
@@ -31,7 +31,7 @@ Next let's consider measuring potential peak activity, again considering the set
 
 In the following visualizer, we are interested in alpha activity (shaded blue range), with two example signals, a 10 Hz centered signal (blue) and another signal that is changing in its center frequency (green):
 
-![osc-peak](https://raw.githubusercontent.com/OscillationMethods/Visualizers/blob/main/gifs/fig2.gif)
+![osc-peak](https://raw.githubusercontent.com/OscillationMethods/Visualizers/main/gifs/fig2.gif)
 
 As we can see in the above, in comparing the two signals using a pre-defined alpha band range of 8-12 Hz, the answers we get about the power differences between the signals across the different bands is actually driven by the changes in center frequency of the rhythm in the green trace.
 
@@ -41,7 +41,7 @@ This points out that in examining putative oscillatory activity as peaks of powe
 
 Finally, lets consider an example case in which the aperiodic activity of the recorded signal is changing / different between signals of interest:
 
-![ap](https://raw.githubusercontent.com/OscillationMethods/Visualizers/blob/main/gifs/fig3.gif)
+![ap](https://raw.githubusercontent.com/OscillationMethods/Visualizers/main/gifs/fig3.gif)
 
 Note that in this visualizer, it is only the aperiodic component of the data that is changing. Despite this, we can see that in looking at measures of different frequency ranges there are differences in specific band ranges can be driven by changes in the aperiodic component of the data. This is also true of the relative power measure of alpha, which also varies with the aperiodic component.
 

@@ -14,13 +14,13 @@ Spectral parameterization is a method for measuring both periodic and aperiodic 
 
 The goal of the model is there to arrive at a description of the neural power spectrum as follows, wherein peaks of power are detected and measured wherever they occur, and measured relative to the aperiodic component, which is also itself measured:
 
-![specparam-model](https://raw.githubusercontent.com/specparam-tools/specparam-tools.github.io/blob/main/_images/sphx_glr_plot_01-ModelDescription_005.png)
+![specparam-model](https://raw.githubusercontent.com/specparam-tools/specparam-tools.github.io/main/_images/sphx_glr_plot_01-ModelDescription_005.png)
 
 In the above model, we can now extract estimates for the both the aperiodic and periodic components!
 
 In order to fit this model, the spectral parameterization algorithm explicitly fits a combination of peaks and the aperiodic component, including an iterative peak search to detect putative oscillatory peaks. Notably, these peaks are detected wherever they occur, regardless of their center frequency, their heights are measured relative to the aperiodic component, and there is also a measure of the aperiodic activity to evaluate if this component of the data is also changing:
 
-![specparam-algo](https://raw.githubusercontent.com/fooof-tools/Visualizers/blob/main/gifs/specparam-algorithm.gif)
+![specparam-algo](https://raw.githubusercontent.com/fooof-tools/Visualizers/main/gifs/specparam-algorithm.gif)
 
 When using spectral parameterization, the output measures provide an estimate of the peak activity (controlling for aperiodic activity) as well as estimates of the aperiodic activity itself.
 
