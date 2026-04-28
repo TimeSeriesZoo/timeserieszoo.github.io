@@ -19,13 +19,13 @@ description:  >- # ignore new lines
   <br>
   **Tutorial**
   <br>
-  <a href="https://timeserieszoo.github.io/tutorial/01_XX">1) Overview</a>
+  <a href="https://timeserieszoo.github.io/tutorial/01_overview">1) Overview</a>
   <br>
-  <a href="https://timeserieszoo.github.io/tutorial/02_XX">2) Processing</a>
+  <a href="https://timeserieszoo.github.io/tutorial/02_sigs">2) Processing</a>
   <br>
-  <a href="https://timeserieszoo.github.io/tutorial/03_XX">3) Electrophysiology</a>
+  <a href="https://timeserieszoo.github.io/tutorial/03_ephys">3) Electrophysiology</a>
   <br>
-  <a href="https://timeserieszoo.github.io/tutorial/04_XX">4) Spectral Parameterization</a>
+  <a href="https://timeserieszoo.github.io/tutorial/04_specparam">4) Spectral Parameterization</a>
   <br><br>
 
 show_downloads: false
