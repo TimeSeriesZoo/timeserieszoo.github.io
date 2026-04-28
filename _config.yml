@@ -9,7 +9,7 @@ description:  >- # ignore new lines
   <br>
   <a href="https://timeserieszoo.github.io/signals/time_domain">Time Domain</a>
   <br>
-  *Transforms*
+  Transforms
   <br>
   <a href="https://timeserieszoo.github.io/transforms/fourier">Fourier</a>
   <br>
@@ -17,7 +17,7 @@ description:  >- # ignore new lines
   <br>
   <a href="https://timeserieszoo.github.io/transforms/filters">Filters</a>
   <br>
-  __Tutorial__
+  Tutorial
   <br>
   <a href="https://timeserieszoo.github.io/tutorial/01_overview">1) Overview</a>
   <br>
